@@ -1,3 +1,7 @@
+2019-02-15  Mark Buda  <hermit@acm.org>
+
+	* All files: Updated copyright notices.
+
 2018-11-04  Mark Buda  <hermit@acm.org>
 
 	* maybe.cpp (main): Initial revision. No error handling.

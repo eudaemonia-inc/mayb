@@ -4,7 +4,7 @@ Maybe is a program along the lines of cat and tee, intended for use in
 pipelines. It does not do anything except wait for input and, if it
 receives any, invokes another program to process that input.
 
-  Copyright (C) 2018 Eudaemonia Inc
+  Copyright (C) 2018, 2019 Eudaemonia Inc
   Copyright (C) 1992, 1993, 1995, 1996, 1997, 1998, 1999, 2000, 2001,
   2002, 2004, 2005, 2006, 2010, 2013, 2014 Free Software Foundation,
   Inc.
