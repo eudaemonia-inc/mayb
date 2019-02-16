@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: maybe
-Source: <url://example.com>
+Upstream-Name: mayb
+Source: <https://github.com/eudaemonia-inc/mayb.git>
 
 Files: *
 Copyright: 2018-2019 Eudaemonia Inc

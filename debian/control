@@ -1,17 +1,17 @@
-Source: maybe
+Source: mayb
 Section: utils
 Priority: optional
 Maintainer: Mark Buda <hermit@acm.org>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 #Homepage: <insert the upstream URL, if relevant>
-Vcs-Git: https://github.com/eudaemonia-inc/maybe
-Vcs-Browser: https://github.com/eudaemonia-inc/maybe
+Vcs-Git: https://github.com/eudaemonia-inc/mayb
+Vcs-Browser: https://github.com/eudaemonia-inc/mayb
 
-Package: maybe
+Package: mayb
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: maybe run a command
- Maybe is a program along the lines of cat and tee, intended for use
- in pipelines. It does not do anything except wait for input and, if
- it receives any, invokes another program to process that input.
+ Mayb is a program along the lines of cat and tee, intended for use in
+ pipelines. It does not do anything except wait for input and, if it
+ receives any, invokes another program to process that input.
