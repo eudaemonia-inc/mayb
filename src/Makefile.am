@@ -1,4 +1,4 @@
-# Makefile for Eudaemonia maybe, which runs another program if only if
+# Makefile for Eudaemonia mayb, which runs another program if only if
 # it receives input on its standard input
 # Copyright (C) 2018, 2019  Eudaemonia Inc
 
@@ -15,6 +15,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-bin_PROGRAMS = maybe
+bin_PROGRAMS = mayb
 
-maybe_SOURCES = maybe.cpp
+mayb_SOURCES = mayb.cpp
