@@ -14,7 +14,7 @@
 
 @SET_MAKE@
 
-# Makefile for Eudaemonia maybe, which runs another program if only if
+# Makefile for Eudaemonia mayb, which runs another program if only if
 # it receives input on its standard input
 # Copyright (C) 2018, 2019  Eudaemonia Inc
 
@@ -103,7 +103,7 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = maybe$(EXEEXT)
+bin_PROGRAMS = mayb$(EXEEXT)
 subdir = src
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
@@ -115,9 +115,9 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_maybe_OBJECTS = maybe.$(OBJEXT)
-maybe_OBJECTS = $(am_maybe_OBJECTS)
-maybe_LDADD = $(LDADD)
+am_mayb_OBJECTS = mayb.$(OBJEXT)
+mayb_OBJECTS = $(am_mayb_OBJECTS)
+mayb_LDADD = $(LDADD)
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -147,8 +147,8 @@ AM_V_CXXLD = $(am__v_CXXLD_@AM_V@)
 am__v_CXXLD_ = $(am__v_CXXLD_@AM_DEFAULT_V@)
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
 am__v_CXXLD_1 = 
-SOURCES = $(maybe_SOURCES)
-DIST_SOURCES = $(maybe_SOURCES)
+SOURCES = $(mayb_SOURCES)
+DIST_SOURCES = $(mayb_SOURCES)
 am__can_run_installinfo = \
   case $$AM_UPDATE_INFO_DIR in \
     n|no|NO) false;; \
@@ -264,7 +264,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-maybe_SOURCES = maybe.cpp
+mayb_SOURCES = mayb.cpp
 all: all-am
 
 .SUFFIXES:
@@ -341,9 +341,9 @@ uninstall-binPROGRAMS:
 clean-binPROGRAMS:
 	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
 
-maybe$(EXEEXT): $(maybe_OBJECTS) $(maybe_DEPENDENCIES) $(EXTRA_maybe_DEPENDENCIES) 
-	@rm -f maybe$(EXEEXT)
-	$(AM_V_CXXLD)$(CXXLINK) $(maybe_OBJECTS) $(maybe_LDADD) $(LIBS)
+mayb$(EXEEXT): $(mayb_OBJECTS) $(mayb_DEPENDENCIES) $(EXTRA_mayb_DEPENDENCIES) 
+	@rm -f mayb$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(mayb_OBJECTS) $(mayb_LDADD) $(LIBS)
 
 mostlyclean-compile:
 	-rm -f *.$(OBJEXT)
@@ -351,7 +351,7 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/maybe.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/mayb.Po@am__quote@
 
 .cpp.o:
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXXCOMPILE) -MT $@ -MD -MP -MF $(DEPDIR)/$*.Tpo -c -o $@ $<

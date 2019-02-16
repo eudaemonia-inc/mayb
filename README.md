@@ -15,18 +15,18 @@ receives any, invokes another program to process that input.
 
 See the files ./INSTALL* for building and installation instructions.
 
-Primary distribution point: git@github.com:eudaemonia-inc/maybe.git
+Primary distribution point: git@github.com:eudaemonia-inc/mayb.git
 
 Home page: http://www.eudaemonia.org
 
-Developer page: http://www.eudaemonia.org/projects/maybe/
+Developer page: http://www.eudaemonia.org/projects/mayb/
 - please file bug reports, patches and feature requests here if
   possible (otherwise, feel free to use the mailing list)
 - significant contributions require a copyright assignment to the
   Eudaemonia Inc. The maintainer will be happy to answer questions
   about the process.
 
-Mailing list: bug-maybe@eudaemonia.org
+Mailing list: bug-mayb@eudaemonia.org
 - please use this list for all discussion
 - archived at: http://lists.gnu.org/pipermail/bug-hello
 - anyone is welcome to join the list; to do so, visit
@@ -74,6 +74,6 @@ step in a pipeline need not be run if its input is empty. For example,
 a sanity-checking script that reports problems on standard output and
 reports nothing if no problems are found could be used in this way:
 
-check-frobnicator | maybe mail -s "frobnicator problems" frobnicator-owner@example.com
+check-frobnicator | mayb mail -s "frobnicator problems" frobnicator-owner@example.com
 
 Eudaemonia maybe is free software.  See the file COPYING for copying conditions.
