@@ -14,7 +14,7 @@ dnl GNU General Public License for more details.
 dnl You should have received a copy of the GNU General Public License
 dnl along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-AC_INIT([mayb], [0.0.0])
+AC_INIT([mayb], [0.0.1])
 AC_CONFIG_SRCDIR([src/mayb.cpp])
 AM_INIT_AUTOMAKE
 
