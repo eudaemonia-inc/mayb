@@ -1,6 +1,6 @@
-This is the README.md file for Eudaemonia maybe.
+This is the README.md file for Eudaemonia mayb.
 
-Maybe is a program along the lines of cat and tee, intended for use in
+Mayb is a program along the lines of cat and tee, intended for use in
 pipelines. It does not do anything except wait for input and, if it
 receives any, invokes another program to process that input.
 
@@ -76,4 +76,4 @@ reports nothing if no problems are found could be used in this way:
 
 check-frobnicator | mayb mail -s "frobnicator problems" frobnicator-owner@example.com
 
-Eudaemonia maybe is free software.  See the file COPYING for copying conditions.
+Eudaemonia mayb is free software.  See the file COPYING for copying conditions.
